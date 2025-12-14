@@ -1,0 +1,27 @@
+{
+  "components": [
+    {
+      "label": "Pack cash",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1u3pf6c",
+        "columns": null
+      },
+      "id": "Field_1pume9z",
+      "key": "money",
+      "validate": {
+        "required": true
+      },
+      "description": "How much cash do you want to bring?"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1iuolrv",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.42.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.24.0",
+  "schemaVersion": 19
+}

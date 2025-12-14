@@ -1,0 +1,12 @@
+spring.datasource.url: jdbc:h2:mem:camunda
+
+
+camunda.bpm:
+  admin-user:
+    id: smagles
+    password: demo
+    deployment-resource-pattern:
+      - classpath*:**/*.form
+      - classpath*:**/*.bpmn
+#  webapp:
+#    enabled: true

@@ -1,0 +1,29 @@
+<form class="form-container">
+    <h2>📝 Anketa</h2>
+
+    <div class="form-group">
+        <label>Name:</label>
+        <input type="text"
+               cam-variable-name="fullName"
+               cam-variable-type="String"
+               required>
+    </div>
+
+    <div class="form-group">
+        <label>Position:</label>
+        <select cam-variable-name="position"
+                cam-variable-type="String">
+            <option value="manager">Менеджер</option>
+            <option value="developer">Разработчик</option>
+            <option value="analyst">Аналитик</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Salary:</label>
+        <input type="number"
+               cam-variable-name="salary"
+               cam-variable-type="Long"
+               min="0">
+    </div>
+</form>
